@@ -1,7 +1,6 @@
 # Aufgabe
 
-Ihre Webseite soll aus einer Home-Page/Landing Page (index.html) bestehen von welcher man durch
-Hyperlinks auf die anderen Webpages der Seite gelangt.
+Ihre Webseite soll aus einer Home-Page/Landing Page (index.html) bestehen von welcher man durch Hyperlinks auf die anderen Webpages der Seite gelangt.
 
 - [ ] Erstellen Sie mindestens drei Seiten (inklusive der Landing Page), die miteinander verlinkt sind.
 - [ ] Erstellen Sie eine CSS-Datei, die eine rudimentäre visuelle Gestaltung der Website durchführt.
@@ -10,8 +9,7 @@ Hyperlinks auf die anderen Webpages der Seite gelangt.
 
 ## Zu verwendende HTML Elemente/Attribute
 
-Diese Auflistung beschreibt die Mindestanforderung an HTML-Elementen, die Ihre Website beinhalten
-soll. Sie dürfen natürlich mehr Elemente inkludieren.
+Diese Auflistung beschreibt die Mindestanforderung an HTML-Elementen, die Ihre Website beinhalten soll. Sie dürfen natürlich mehr Elemente inkludieren.
 
 - [ ] Mindestens zwei Unterschiedliche Überschriften.
 - [ ] Mindestens einen Paragraphen mit Text.
@@ -31,9 +29,8 @@ Zusätzlich müssen folgende Attribute mindestens vorkommen:
 ## Zu verwendende CSS Eigenschaften
 
 Erstellen Sie ein externes CSS-File (mystyle.css), welches die gesamte Style Information beinhaltet.
-Es dürfen keine Style-Anweisungen im HTML File vorkommen.
-Diese Auflistung beschreibt die Mindestanforderung an CSS Elementen, die Ihr Stylesheet beinhalten
-soll. Sie dürfen natürlich mehr Elemente inkludieren
+Es dürfen keine Style-Anweisungen im HTML File vorkommen. Diese Auflistung beschreibt die Mindestanforderung an CSS Elementen, die Ihr Stylesheet beinhalten soll. Sie dürfen natürlich mehr Elemente inkludieren
+
 - [ ] Benutzen Sie die Eigenschaften color bzw. background-color mindestens ein mal
 - [ ] Stellen Sie die Schriftfamilie für h1 bis h6 Überschriften auf Verdana um, mit jeder verfügbaren Sansserif-Schrift als Backup.
 - [ ] Setzen Sie die Schriftart für die Überschriften h1 bis h6 auf fett.
@@ -49,7 +46,7 @@ Verwenden Sie hierfür folgende Validators (file upload):
 Character Encoding: (detect automatically)\
 Document Type: (detect automatically)
 
-- [ ] CSS: (http://jigsaw.w3.org/css-validator/)  
+- [ ] "CSS:" (http://jigsaw.w3.org/css-validator/)  
 Profile: CSS Level 3\
 Medium: All\
 Warnings: Normal report\
