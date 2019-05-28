@@ -2,22 +2,22 @@
 
 Ihre Webseite soll aus einer Home-Page/Landing Page (index.html) bestehen von welcher man durch Hyperlinks auf die anderen Webpages der Seite gelangt.
 
-- [ ] Erstellen Sie mindestens drei Seiten (inklusive der Landing Page), die miteinander verlinkt sind.
-- [ ] Erstellen Sie eine CSS-Datei, die eine rudimentäre visuelle Gestaltung der Website durchführt.
-- [ ] Webpages und das Style Sheet müssen mit relativen Links verlinkt sein.
+- [x] Erstellen Sie mindestens drei Seiten (inklusive der Landing Page), die miteinander verlinkt sind.
+- [x] Erstellen Sie eine CSS-Datei, die eine rudimentäre visuelle Gestaltung der Website durchführt.
+- [x] Webpages und das Style Sheet müssen mit relativen Links verlinkt sein.
 
 
 ## Zu verwendende HTML Elemente/Attribute
 
 Diese Auflistung beschreibt die Mindestanforderung an HTML-Elementen, die Ihre Website beinhalten soll. Sie dürfen natürlich mehr Elemente inkludieren.
 
-- [ ] Mindestens zwei Unterschiedliche Überschriften.
-- [ ] Mindestens einen Paragraphen mit Text.
+- [X] Mindestens zwei Unterschiedliche Überschriften.
+- [X] Mindestens einen Paragraphen mit Text.
 - [ ] Mindestens ein Bild, dessen Breite sich mit der Größe des Browserfensters anpasst.
 - [ ] Bild als Link zu einer internen oder externen Seite
 - [ ] Mindestens ein externer Link der in einem neuen Tab/Fenster geöffnet wird
 - [ ] Eine verschachtelte Liste (mindestens zwei Ebenen) oder eine Tabelle
-- [ ] Ein iFrame oder eine Videodatei oder eine Audiodatei
+- [x] Ein iFrame oder eine Videodatei oder eine Audiodatei
 - [ ] div oder span
 - [ ] Mindestens zwei semantische Elemente
 
