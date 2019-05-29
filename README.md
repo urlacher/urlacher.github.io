@@ -11,19 +11,19 @@ Ihre Webseite soll aus einer Home-Page/Landing Page (index.html) bestehen von we
 
 Diese Auflistung beschreibt die Mindestanforderung an HTML-Elementen, die Ihre Website beinhalten soll. Sie dürfen natürlich mehr Elemente inkludieren.
 
-- [X] Mindestens zwei Unterschiedliche Überschriften.
-- [X] Mindestens einen Paragraphen mit Text.
-- [ ] Mindestens ein Bild, dessen Breite sich mit der Größe des Browserfensters anpasst.
-- [ ] Bild als Link zu einer internen oder externen Seite
-- [ ] Mindestens ein externer Link der in einem neuen Tab/Fenster geöffnet wird
-- [ ] Eine verschachtelte Liste (mindestens zwei Ebenen) oder eine Tabelle
+- [x] Mindestens zwei Unterschiedliche Überschriften.
+- [x] Mindestens einen Paragraphen mit Text.
+- [x] Mindestens ein Bild, dessen Breite sich mit der Größe des Browserfensters anpasst.
+- [x] Bild als Link zu einer internen oder externen Seite
+- [x] Mindestens ein externer Link der in einem neuen Tab/Fenster geöffnet wird
+- [x] Eine verschachtelte Liste (mindestens zwei Ebenen) oder eine Tabelle
 - [x] Ein iFrame oder eine Videodatei oder eine Audiodatei
-- [ ] div oder span
-- [ ] Mindestens zwei semantische Elemente
+- [x] div oder span
+- [x] Mindestens zwei semantische Elemente
 
 Zusätzlich müssen folgende Attribute mindestens vorkommen:
-- [ ] Mindestens einmal das Attribut id.
-- [ ] Mindestens einmal das Attribut class.
+- [x] Mindestens einmal das Attribut id.
+- [x] Mindestens einmal das Attribut class.
 
 
 ## Zu verwendende CSS Eigenschaften
@@ -31,11 +31,10 @@ Zusätzlich müssen folgende Attribute mindestens vorkommen:
 Erstellen Sie ein externes CSS-File (mystyle.css), welches die gesamte Style Information beinhaltet.
 Es dürfen keine Style-Anweisungen im HTML File vorkommen. Diese Auflistung beschreibt die Mindestanforderung an CSS Elementen, die Ihr Stylesheet beinhalten soll. Sie dürfen natürlich mehr Elemente inkludieren
 
-- [ ] Benutzen Sie die Eigenschaften color bzw. background-color mindestens ein mal
-- [ ] Stellen Sie die Schriftfamilie für h1 bis h6 Überschriften auf Verdana um, mit jeder verfügbaren Sansserif-Schrift als Backup.
-- [ ] Setzen Sie die Schriftart für die Überschriften h1 bis h6 auf fett.
-- [ ] Setzt die Schriftfamilie für normalen Text im Text auf Georgia, mit beliebigen verfügbare Seri-
-fenschrift als Backup.
+- [x] Benutzen Sie die Eigenschaften color bzw. background-color mindestens ein mal
+- [x] Stellen Sie die Schriftfamilie für h1 bis h6 Überschriften auf Verdana um, mit jeder verfügbaren Sansserif-Schrift als Backup.
+- [x] Setzen Sie die Schriftart für die Überschriften h1 bis h6 auf fett.
+- [x] Setzt die Schriftfamilie für normalen Text im Text auf Georgia, mit beliebigen verfügbare Serifenschrift als Backup.
 
 
 ## WC3 konforme HTML/CSS-Dateien
