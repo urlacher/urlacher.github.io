@@ -1,4 +1,4 @@
-# Aufgabe
+# Übungsaufgabe 02 - HTML
 
 Ihre Webseite soll aus einer Home-Page/Landing Page (index.html) bestehen von welcher man durch Hyperlinks auf die anderen Webpages der Seite gelangt.
 
@@ -20,6 +20,13 @@ Diese Auflistung beschreibt die Mindestanforderung an HTML-Elementen, die Ihre W
 - [x] Ein iFrame oder eine Videodatei oder eine Audiodatei
 - [x] div oder span
 - [x] Mindestens zwei semantische Elemente
+    * < header > : definiert eine Überschrift für ein Dokument oder einen Abschnitt.
+    * < nav > : definiert einen Container für Navigationslinks.
+    * < main >: für Inhalte, die nur auf dieser Seite verfügbar sind.
+    * < section > : definiert einen Abschnitt in einem Dokument.
+    * < article > : definiert einen unabhängigen, in sich geschlossenen Artikel.
+    * < aside > : enthält Inhalte, die nicht in direktem Zusammenhang mit dem Hauptinhalt stehen, aber zusätzliche Informationen liefern
+    * < footer > : definiert eine Fußzeile für ein Dokument oder einen Abschnitt.
 
 Zusätzlich müssen folgende Attribute mindestens vorkommen:
 - [x] Mindestens einmal das Attribut id.
@@ -37,7 +44,54 @@ Es dürfen keine Style-Anweisungen im HTML File vorkommen. Diese Auflistung besc
 - [x] Setzt die Schriftfamilie für normalen Text im Text auf Georgia, mit beliebigen verfügbare Serifenschrift als Backup.
 
 
-## WC3 konforme HTML/CSS-Dateien
+# Übungsaufgabe 03 - CSS
+
+## Aufgabe
+Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
+- [ ] Versuchen Sie die Website möglichst barrierefrei zu machen durch z.B. kontrastreiche Farbkombinationen, Alternativ Text für Bilder,...
+    - [ ] Kontrastreiche Frabkombinationen
+    - [ ] Alternativ Text für Bilder
+    - [ ] Alternativ Text für Videos
+    - [ ] Relative Längeneinheiten
+- [ ] Erstellen Sie ein Column Layout mit Hilfe von Flexbox welches folgende Teile beinhaltet:
+    - [ ] Header
+    - [ ] Navigationbar (ohne Dropdown Menü)
+    - [ ] Content im Column Layout (mindestens auf einer Seite 2-Columns)
+- [ ] Verwenden Sie mindestens einmal einen Selektor Combinator
+    * **descendant selector (space)** 
+    `div p { background-color: silver; }` # Alle Paragraphen p in div
+    * **child selector (>)**
+    `div>p { color: red; }` # Alle p in die direkt in div liegen
+    * **adjacent sibling selector (+)**
+    `div+p { background-color: powderblue; }` # An div angrenzender Paragraph p in
+    * **general sibling selector (~)**
+    `div~p { color: purple; }` # Alle p die div folgen
+- [ ] Verwenden Sie mindestens einmal die Eigenschaft position
+    * **static** 
+        ➤ HTML-Elemente werden standardmäßig statisch positioniert.
+        ➤ Element wird entsprechend dem normalen Seitenfluss positioniert
+        ➤ Statisch positionierte Elemente werden von den Eigenschaften top, down, left und right nicht beeinflusst.
+    * **relative**
+        ➤ Element wird relativ zu seiner normalen Position positioniert.
+        ➤ top, down, left und right definieren wie das Element im Bezug steht zu seiner normalen Position
+        ➤ Andere Inhalte werden nicht so angepasst, dass sie in eine vom Element hinterlassene Lücke passen.
+    * **fixed**
+        ➤ ist relativ zum Ansichtsfenster positioniert, d.h. es bleibt immer an der gleichen Stelle, auch wenn die Seite gescrollt wird.
+        ➤ fixiertes Element hinterlässt keine Lücke auf der Seite, auf der es sich normalerweise befinden würde.
+    * **absolute**
+        ➤ wird relativ zum nächstgelegenen positionierten Vorgänger positioniert (anstatt relativ zum Ansichtsfenster, wie fixed).
+        ➤ “positionierter" Vorgänger: Element dessen Position nicht static ist
+        ➤ Wenn kein positionierter Vorgänger: dann ist der Dokumentenkörper der Vorgänger und das Element bewegt sich beim Blättern der Seite mit.
+    * **sticky**
+        ➤ Position eines Elements mit Position sticky basierend auf der Scrollposition
+        ➤ Schaltet je nach Scrollposition zwischen relative und fixed
+        ➤ relative positioniert bis eine gegebene Offsetposition im Ansichtsfenster erreicht ist
+        ➤ fixed danach
+
+
+
+
+### WC3 konforme HTML/CSS-Dateien
 
 Überprüfen Sie vor der Abgabe Ihre Website, dass die HTML und CSS Dokumente valide 1 sind.
 Verwenden Sie hierfür folgende Validators (file upload):
