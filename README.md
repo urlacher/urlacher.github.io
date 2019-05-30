@@ -50,14 +50,14 @@ Es dürfen keine Style-Anweisungen im HTML File vorkommen. Diese Auflistung besc
 Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
 - [ ] Versuchen Sie die Website möglichst barrierefrei zu machen durch z.B. kontrastreiche Farbkombinationen, Alternativ Text für Bilder,...
     - [ ] Kontrastreiche Frabkombinationen
-    - [ ] Alternativ Text für Bilder
+    - [x] Alternativ Text für Bilder
     - [ ] Alternativ Text für Videos
-    - [ ] Relative Längeneinheiten
-- [ ] Erstellen Sie ein Column Layout mit Hilfe von Flexbox welches folgende Teile beinhaltet:
-    - [ ] Header
-    - [ ] Navigationbar (ohne Dropdown Menü)
-    - [ ] Content im Column Layout (mindestens auf einer Seite 2-Columns)
-- [ ] Verwenden Sie mindestens einmal einen Selektor Combinator
+    - [x] Relative Längeneinheiten
+- [x] Erstellen Sie ein Column Layout mit Hilfe von Flexbox welches folgende Teile beinhaltet:
+    - [x] Header
+    - [x] Navigationbar (ohne Dropdown Menü)
+    - [x] Content im Column Layout (mindestens auf einer Seite 2-Columns)
+- [x] Verwenden Sie mindestens einmal einen Selektor Combinator
     * **descendant selector (space)** # Alle Paragraphen p in div
     ```css 
     div p { 
@@ -83,27 +83,27 @@ Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
         color: purple; 
         }
     ```
-- [ ] Verwenden Sie mindestens einmal die Eigenschaft position
+- [x] Verwenden Sie mindestens einmal die Eigenschaft position
     * **static** 
-        ➤ HTML-Elemente werden standardmäßig statisch positioniert.
-        ➤ Element wird entsprechend dem normalen Seitenfluss positioniert
-        ➤ Statisch positionierte Elemente werden von den Eigenschaften top, down, left und right nicht beeinflusst.
+        * HTML-Elemente werden standardmäßig statisch positioniert.
+        * Element wird entsprechend dem normalen Seitenfluss positioniert
+        * Statisch positionierte Elemente werden von den Eigenschaften top, down, left und right nicht beeinflusst.
     * **relative**
-        ➤ Element wird relativ zu seiner normalen Position positioniert.
-        ➤ top, down, left und right definieren wie das Element im Bezug steht zu seiner normalen Position
-        ➤ Andere Inhalte werden nicht so angepasst, dass sie in eine vom Element hinterlassene Lücke passen.
+        * Element wird relativ zu seiner normalen Position positioniert.
+        * top, down, left und right definieren wie das Element im Bezug steht zu seiner normalen Position
+        * Andere Inhalte werden nicht so angepasst, dass sie in eine vom Element hinterlassene Lücke passen.
     * **fixed**
-        ➤ ist relativ zum Ansichtsfenster positioniert, d.h. es bleibt immer an der gleichen Stelle, auch wenn die Seite gescrollt wird.
-        ➤ fixiertes Element hinterlässt keine Lücke auf der Seite, auf der es sich normalerweise befinden würde.
+        * ist relativ zum Ansichtsfenster positioniert, d.h. es bleibt immer an der gleichen Stelle, auch wenn die Seite gescrollt wird.
+        * fixiertes Element hinterlässt keine Lücke auf der Seite, auf der es sich normalerweise befinden würde.
     * **absolute**
-        ➤ wird relativ zum nächstgelegenen positionierten Vorgänger positioniert (anstatt relativ zum Ansichtsfenster, wie fixed).
-        ➤ “positionierter" Vorgänger: Element dessen Position nicht static ist
-        ➤ Wenn kein positionierter Vorgänger: dann ist der Dokumentenkörper der Vorgänger und das Element bewegt sich beim Blättern der Seite mit.
+        * wird relativ zum nächstgelegenen positionierten Vorgänger positioniert (anstatt relativ zum Ansichtsfenster, wie fixed).
+        * “positionierter" Vorgänger: Element dessen Position nicht static ist
+        * Wenn kein positionierter Vorgänger: dann ist der Dokumentenkörper der Vorgänger und das Element bewegt sich beim Blättern der Seite mit.
     * **sticky**
-        ➤ Position eines Elements mit Position sticky basierend auf der Scrollposition
-        ➤ Schaltet je nach Scrollposition zwischen relative und fixed
-        ➤ relative positioniert bis eine gegebene Offsetposition im Ansichtsfenster erreicht ist
-        ➤ fixed danach
+        * Position eines Elements mit Position sticky basierend auf der Scrollposition
+        * Schaltet je nach Scrollposition zwischen relative und fixed
+        * relative positioniert bis eine gegebene Offsetposition im Ansichtsfenster erreicht ist
+        * fixed danach
 
 
 
