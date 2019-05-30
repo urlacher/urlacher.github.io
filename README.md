@@ -58,14 +58,31 @@ Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
     - [ ] Navigationbar (ohne Dropdown Menü)
     - [ ] Content im Column Layout (mindestens auf einer Seite 2-Columns)
 - [ ] Verwenden Sie mindestens einmal einen Selektor Combinator
-    * **descendant selector (space)** 
-    `div p { background-color: silver; }` # Alle Paragraphen p in div
-    * **child selector (>)**
-    `div>p { color: red; }` # Alle p in die direkt in div liegen
-    * **adjacent sibling selector (+)**
-    `div+p { background-color: powderblue; }` # An div angrenzender Paragraph p in
-    * **general sibling selector (~)**
-    `div~p { color: purple; }` # Alle p die div folgen
+    * **descendant selector (space)** # Alle Paragraphen p in div
+    ```css 
+    div p { 
+        background-color: silver; 
+        }
+    ``` 
+    
+    * **child selector (>)** # Alle p in die direkt in div liegen
+    ```css 
+    div>p { 
+        color: red; 
+        }
+    ``` 
+    * **adjacent sibling selector (+)** # An div angrenzender Paragraph p in
+    ```css 
+    div+p { 
+        background-color: powderblue; 
+        }
+    ```
+    * **general sibling selector (~)** # Alle p die div folgen
+    ```css 
+    div~p { 
+        color: purple; 
+        }
+    ```
 - [ ] Verwenden Sie mindestens einmal die Eigenschaft position
     * **static** 
         ➤ HTML-Elemente werden standardmäßig statisch positioniert.
