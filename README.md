@@ -48,10 +48,10 @@ Es dürfen keine Style-Anweisungen im HTML File vorkommen. Diese Auflistung besc
 
 ## Aufgabe
 Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
-- [ ] Versuchen Sie die Website möglichst barrierefrei zu machen durch z.B. kontrastreiche Farbkombinationen, Alternativ Text für Bilder,...
-    - [ ] Kontrastreiche Frabkombinationen
+- [x] Versuchen Sie die Website möglichst barrierefrei zu machen durch z.B. kontrastreiche Farbkombinationen, Alternativ Text für Bilder,...
+    - [x] Kontrastreiche Frabkombinationen
     - [x] Alternativ Text für Bilder
-    - [ ] Alternativ Text für Videos
+    - [x] Alternativ Text für Videos
     - [x] Relative Längeneinheiten
 - [x] Erstellen Sie ein Column Layout mit Hilfe von Flexbox welches folgende Teile beinhaltet:
     - [x] Header
@@ -112,11 +112,11 @@ Erweitern Sie Ihre existierende Website um folgende Inhalte/Elemente:
 
 Überprüfen Sie vor der Abgabe Ihre Website, dass die HTML und CSS Dokumente valide 1 sind.
 Verwenden Sie hierfür folgende Validators (file upload):
-- [ ] HTML: (https://validator.w3.org/)  
+- [x] HTML: (https://validator.w3.org/)  
 Character Encoding: (detect automatically)\
 Document Type: (detect automatically)
 
-- [ ] "CSS:" (http://jigsaw.w3.org/css-validator/)  
+- [x] "CSS:" (http://jigsaw.w3.org/css-validator/)  
 Profile: CSS Level 3\
 Medium: All\
 Warnings: Normal report\
