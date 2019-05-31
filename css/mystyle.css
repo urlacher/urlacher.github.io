@@ -7,31 +7,42 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: Verdana, sans-serif;
     /* lt. Vorgabe */
-
     font-weight: bold;
     /* lt. Vorgabe */
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em;
 }
 
 .wrapper {
     width: 100%;
     max-width: 80em;
     margin: 0 auto;
+    background: #3d8daa;
 }
 
 main {
-    background: #C0F46B;
     padding: 0.3em;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
-
     flex-direction: row;
-
 }
 
 header {
+    background-color: #ffffff;
+    padding: 0.2em;
     height: 6em;
 }
 
@@ -53,16 +64,16 @@ nav {
     border-bottom: 0.1em solid black;
     padding: 0;
     margin: 0;
-    background-color: #3F6503;
+    background-color: #d1d1d1;
     /* lt. Vorgabe */
 }
 
 nav a {
     font-family: Verdana, sans-serif;
     /* lt. Vorgabe */
-
     text-decoration: none;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 nav ul {
@@ -83,7 +94,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: #8BD415;
+    background-color: #daebef;
 }
 
 .row {
@@ -93,7 +104,7 @@ nav li:hover {
 
 .col {
     flex-basis: 50%;
-    background-color: #D9F4AD;
+    background-color: #86bbc9;
     padding: 1em;
 }
 
@@ -107,8 +118,9 @@ nav li:hover {
 
 #wappen {
     max-width: 60%;
-    background-color: #68843A;
-    padding: 0.2em;
+    background-color: #d1d1d1;
+    padding: 1em;
+    border: 0.1em solid black;
 }
 
 iframe {
@@ -117,6 +129,7 @@ iframe {
 }
 
 /* lt. Vorgabe */
+
 .col img {
     max-width: 8em;
 }
@@ -125,6 +138,16 @@ iframe {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.listNone li {
+    overflow: auto;
+}
+
+.listNone li img {
+    margin: 0.4em;
+    border: 0.1em solid black;
+    float: left;
 }
 
 .vidContainer {
@@ -143,9 +166,13 @@ iframe {
     height: 100%;
 }
 
+table {
+    width: 100%;
+}
+
 table, tr, th, td {
     border-collapse: collapse;
-    border: 0.1em solid lightgray;
+    border: 0.1em solid black;
     padding: 0.2em;
     margin: 0.1em;
 }
